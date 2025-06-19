@@ -1,5 +1,8 @@
+# components folder means modules which we are going to use it in our project
+# data_ingestion.py file is created to read the data from the source (which can be database or any other source) and split it into train and test data
+
 import os
-import sys
+import sys # it is used to interact with the Python system and control your program's behavior more directly.
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
