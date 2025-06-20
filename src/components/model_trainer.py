@@ -1,6 +1,6 @@
 import os  # Import os for file and directory operations
 import sys  # Import sys for system-specific parameters
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))) # Adds the project root directory to the Python path so that imports like 'from src...'
 from dataclasses import dataclass  # Import dataclass for easy class creation
 
 from catboost import CatBoostRegressor  # Import CatBoostRegressor model
